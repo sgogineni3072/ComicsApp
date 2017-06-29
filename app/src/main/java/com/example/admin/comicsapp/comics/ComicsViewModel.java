@@ -7,10 +7,6 @@ import javax.inject.Inject;
 
 import rx.Observable;
 
-/**
- * Created by Admin on 28/06/2017.
- */
-
 public class ComicsViewModel {
     private final ComicsRestService service;
 

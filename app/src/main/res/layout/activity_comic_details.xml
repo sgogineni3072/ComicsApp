@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="2dp">
+
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="Title:" />
+
+    <TextView
+        android:id="@+id/valTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="19dp"
+        android:layout_marginStart="19dp"
+        android:layout_toEndOf="@+id/txtTitle"
+        android:layout_toRightOf="@+id/txtTitle"
+        android:text="Title" />
+
+    <TextView
+        android:id="@+id/txtDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtTitle"
+        android:text="Desc:" />
+
+    <TextView
+        android:id="@+id/valDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:layout_alignLeft="@+id/valTitle"
+        android:layout_alignStart="@+id/valTitle"
+        android:layout_below="@+id/valTitle"
+        android:text="Desc" />
+
+    <TextView
+        android:id="@+id/txtPageCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:text="Page Count:"
+        android:layout_below="@+id/txtDesc"
+        android:layout_alignRight="@+id/valDesc"
+        android:layout_alignEnd="@+id/valDesc" />
+
+    <TextView
+        android:id="@+id/valPageCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:text="PageCount"
+        android:layout_alignBottom="@+id/txtPageCount"
+        android:layout_toRightOf="@+id/valDesc"
+        android:layout_toEndOf="@+id/valDesc"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp" />
+
+    <TextView
+        android:id="@+id/textPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:layout_alignLeft="@+id/txtPageCount"
+        android:layout_alignStart="@+id/txtPageCount"
+        android:layout_below="@+id/txtPageCount"
+        android:text="Price:" />
+
+    <TextView
+        android:id="@+id/valPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:layout_below="@+id/txtPageCount"
+        android:layout_toEndOf="@+id/txtDesc"
+        android:layout_toRightOf="@+id/txtDesc"
+        android:text="Price"/>
+
+    <TextView
+        android:id="@+id/txtAuthors"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:layout_alignLeft="@+id/textPrice"
+        android:layout_alignStart="@+id/textPrice"
+        android:layout_below="@+id/textPrice"
+        android:text="Authors:" />
+
+    <TextView
+        android:id="@+id/valAuthors"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:layout_alignBottom="@+id/txtAuthors"
+        android:layout_toEndOf="@+id/valPrice"
+        android:layout_toRightOf="@+id/valPrice"
+        android:text="Authors" />
+
+
+</RelativeLayout>
